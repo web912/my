@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+@font-face { 
+	font-family: 'AvenirNextLTPro'; 
+	src: url('fonts\AvenirNextLTPro-CnIt.woff2') format('woff2'), 
+		 url('fonts\AvenirNextLTPro-CnIt.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+  }
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+
+h2{
+	font-family: Montserrat;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 61px;
+	letter-spacing: 0em;
+	text-align: left;
+	
+}
+div {
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.john > li{
+	font-family: "AvenirNextLTPro";
+	font-size: 40px;
+	line-height: 25px;
+	text-shadow: 2px 2px 7px rgba(255,0,0,1); /* Параметры тени */
+	list-style: decimal;
+	margin: 15px 0px 15px 50px;
+
+}
+
+ul, ol{
+	margin: 15px 15px 15px 40px;
+}
+
+h2{
+	text-shadow: 1px 2px 5px rgba(215, 215, 0, 1) ;
+}
+
+.line {
+	text-decoration: line-through;
+	text-decoration-color: blue;
+	text-shadow: none;
+}
+
+.serv1 {
+font-weight: 600 ;
+font-style: italic;
+}
+
+.serv2 {
+	font-style: italic;
+	font-weight: 400 ;}
+
+.serv3 {
+	font-style:oblique;
+	font-weight: 200 ;}
+
+.serv4 {
+	font-weight: 700 ;}
+
+.serv5 {
+	font-weight: 900 ;}
+
+.serv6 {
+	font-weight: 500 ;}
+
+	.mline{
+		text-decoration: line-through;
+		text-decoration-color: red;
+
+	}
+
+	.span1{
+		text-decoration: line-through;
+	}
+	.span2{
+		color: red;
+	}
+
+	.shad1{
+		text-shadow: 2px 1px 5px rgba(0, 128, 128, 0.5);
+	}
